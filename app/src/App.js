@@ -32,7 +32,6 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>Click Score: {this.state.count}</Title>
-        <button onClick={this.checkCard}>Click me</button>
         {this.state.faces.map(face => (
           <JojoCard
             id={face.id}

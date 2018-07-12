@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Dio 1",
+    "image": "https://i.imgur.com/ajhU7g4.png"
+  },
+  {
+    "id": 2,
+    "name": "Dio 2",
+    "image": "https://i.imgur.com/fV4DfgQ.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jonathan 1",
+    "image": "https://i.imgur.com/4XYd7It.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Joseph 1",
+    "image": "https://i.imgur.com/02WJz5s.png"
+  },
+  {
+    "id": 5,
+    "name": "Joseph 2",
+    "image": "https://i.imgur.com/PFpwICs.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Josuke 1",
+    "image": "https://i.imgur.com/ssDiEQm.png"
+  },
+  {
+    "id": 7,
+    "name": "Josuke 2",
+    "image": "https://i.imgur.com/fjvfZrE.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Jotaro 1",
+    "image": "https://i.imgur.com/S62Z7QF.png"
+  },
+  {
+    "id": 9,
+    "name": "Kakyoin 1",
+    "image": "https://i.imgur.com/foAiIq5.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Koichi 1",
+    "image": "https://i.imgur.com/ahpKpFh.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Lallyho 1",
+    "image": "https://i.imgur.com/qeuSODz.png"
+  },
+  {
+    "id": 12,
+    "name": "Osiris 1",
+    "image": "https://i.imgur.com/TYoMnFQ.jpg"
+  }
+]

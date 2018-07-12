@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+@media (min-width: 1100px) {
+	.container {
+	    padding-left: 100px;
+	    padding-right: 100px;
+	    width: 1100px;
+	}
+}

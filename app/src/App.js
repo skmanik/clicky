@@ -8,8 +8,17 @@ import "./App.css";
 class App extends Component {
   // setting this.state.faces to the faces json array
   state = {
-    faces
+    count: 0,
+    clicked: [],
+    faces: faces,
   };
+
+  checkCard = id => {
+    console.log("I've been clicked!");
+
+    // update count state
+    this.setState({ count: this.state.count + 1 });
+  };  
 
   // removeCharacter = id => {
   //   // filter this.state.faces for faces with an id not equal to the id being removed
@@ -22,13 +31,15 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Clicky!</Title>
+        <Title>Click Score: {this.state.count}</Title>
+        <button onClick={this.checkCard}>Click me</button>
         {this.state.faces.map(face => (
           <JojoCard
             id={face.id}
             key={face.id}
             name={face.name}
             image={face.image}
+            checkCard={this.checkCard}
           />
         ))}
       </Wrapper>

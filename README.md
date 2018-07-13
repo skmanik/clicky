@@ -1,6 +1,6 @@
 # clicky
 
-Clicky game featuring the many faces of JJBA.
+A simple clicking game to try out React. Features the many faces of JJBA.
 
 ## Instructions
 
@@ -10,4 +10,4 @@ Clicky game featuring the many faces of JJBA.
 
 ## Live Site
 
-Link to demo: [Newscraper](https://skmanik.github.io/clicky/)
+Link to demo: [Clicky](https://skmanik.github.io/clicky/)

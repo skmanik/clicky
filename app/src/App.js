@@ -8,7 +8,7 @@ import "./App.css";
 // idk why i'm doing this out here
 // i keep reading sketchy info about pushing into state arrays
 // so whatever
-const clicked = [];
+let clicked = [];
 
 class App extends Component {
   // setting this.state.faces to the faces json array
@@ -30,14 +30,29 @@ class App extends Component {
     // check clicked array for this card's id
     const included = clicked.find((n) => n === id);
 
+    // if it exists inside the array, reset the game
+    // if not, push the card id into the array and update the counter
     if (included) {
       console.log("Muda muda muda!");
+
       this.setState({ count: 0 });
+      clicked = [];
     } else {
       console.log("GUUREATO!");
-      clicked.push(id);
-      console.log(clicked);
-      this.setState({ count: this.state.count + 1 });
+
+      if (clicked.length < 12) {
+        clicked.push(id);
+        console.log(clicked);
+        this.setState({ count: this.state.count + 1 });
+
+        // win state
+        if (clicked.length === 12) {
+          alert("You've won!");
+
+          this.setState({ count: 0 });
+          clicked = [];
+        }
+      }
     }
 
     // shuffle cards
